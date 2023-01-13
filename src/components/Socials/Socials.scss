@@ -1,0 +1,21 @@
+.socialIcons {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 1.5rem;
+    @media screen and (max-width: 425px) {
+        color: black;
+    }
+    @media screen and (max-width: 768px) and (min-width: 426px) {
+        color: black;
+    }
+}
+
+.socialIcons li {
+    list-style-type: none;
+}
+
+.socialIcons li:hover {
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+}

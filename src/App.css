@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+  font-family: "Space Grotesk, sans-serif";
+}
+
+.bg-animation {
+  width: 46%;
+}
+
+.central {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 100px;
+}
+
+.central-text h3 {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.3rem;
+}
+
+.central-text h1 {
+  color: white;
+  font-size: 2.4rem;
+}
+
+.central-text p {
+  color: aliceblue;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 425px) {
+  .central {
+    justify-content: center;
+  }
+  .central-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .central-text h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .central {
+    justify-content: center;
+  }
+  .central-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .central-text h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 889px) and (min-width: 879px) {
+  .central {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .central-text {
+    margin-top: 80px;
+  }
+}
+
+
