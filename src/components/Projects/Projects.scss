@@ -50,6 +50,19 @@
     }
 }
 
+.vetImg {
+    width: 42.5%;
+    @media screen and (max-width: 926px) {
+        width: 90%;
+    }
+    @media screen and (max-width: 1200px) and (min-width: 927px) {
+        width: 58%;
+    }
+    @media screen and (max-width: 1500px) and (min-width: 1201px) {
+        width: 42%;
+    }
+}
+
 .right {
     display: flex;
     flex-wrap: wrap;

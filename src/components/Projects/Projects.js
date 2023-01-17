@@ -2,6 +2,7 @@ import React from 'react';
 import "./Projects.scss";
 import blgImg from "../images/blg.jpg";
 import frmPlus from "../images/form_plus.png";
+import vetImg from "../images/about-hero.jpeg";
 
 const Projects = () => {
   return (
@@ -36,6 +37,19 @@ const Projects = () => {
               <div className="prjButton">
               <div className="link" onClick={() => window.location = 'https://mike-abaniwos-form-plus-technical-task.netlify.app/'}>View Project</div>
               <div className="link" onClick={() => window.location = 'https://github.com/AbaniwoM/formplus-task'}>View Code</div>
+              </div>
+            </div>
+        </div>
+        <div className="project">
+            <div className="left vetImg" >
+              <img src={vetImg} alt="vet-img"/>
+            </div>
+            <div className="right">
+              <h4>ILLUSTRATION</h4>
+              <h2>Veterinary Consult App</h2>
+              <p>I worked with a team which built the VetConsult web application. It bridges the gap between the veterinary doctors and pet owners.</p>
+              <div className="prjButton">
+              <div className="link" onClick={() => window.location = 'https://vetconsultweb.netlify.app/'}>View Project</div>
               </div>
             </div>
         </div>
