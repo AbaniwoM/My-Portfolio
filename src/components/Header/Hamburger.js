@@ -6,6 +6,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { makeStyles } from "@material-ui/core";
 import "./Hamburger.scss"
 import Socials from "../Socials/Socials";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles((theme) => ({
   menu: {
@@ -56,9 +57,15 @@ export default function Hamburger() {
           }}
           className={classes.menu}
         >
-          <MenuItem>Projects</MenuItem>
-          <MenuItem>Technologies</MenuItem>
-          <MenuItem>About</MenuItem>
+          <Link to="projects" smooth={true} duration={1000}>
+            <MenuItem>Projects</MenuItem>
+          </Link>
+          <Link to="tech" smooth={true} duration={1000}>
+            <MenuItem>Technologies</MenuItem>
+          </Link>
+          <Link to="about" smooth={true} duration={1000}>
+            <MenuItem>About</MenuItem>
+          </Link>
           <MenuItem>
            <div className="socialIcns">
             <Socials />
