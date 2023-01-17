@@ -1,0 +1,63 @@
+.jrnContainer {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column; 
+   align-items: center;
+   gap: 40px;
+   margin-top: 220px;
+}
+
+.jrnHead {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.jrnText {
+    color: rgba(255, 255, 255, 0.75);
+    width: 80%;
+    line-height: 32px;
+    font-size: 1.3rem;
+}
+
+.jrnDate {
+    display: grid;
+    grid-auto-flow: column;
+    align-self: center;
+    gap: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+    @media screen and (max-width: 768px) {
+        overflow-x: scroll;
+        width: 80%;
+        gap: 30px;
+        padding-left: 0px;
+    }
+}
+
+.contained {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.up {
+    display: flex;
+}
+
+.up h3 {
+    color: white;
+}
+
+.up p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.6rem;
+}
+
+.down {
+    color: rgba(255, 255, 255, 0.75);
+    width: 70%;
+    @media screen and (max-width: 768px) {
+        width: 92%;
+    }
+}

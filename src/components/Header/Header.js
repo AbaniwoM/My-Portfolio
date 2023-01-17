@@ -3,6 +3,7 @@ import { FcMindMap } from "react-icons/fc"
 import Socials from '../Socials/Socials';
 import Hamburger from './Hamburger';
 import "./Header.scss";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -12,9 +13,15 @@ const Header = () => {
         <h3>Portfolio</h3>
       </div>
       <div className="links">
-        <li>Projects</li>
-        <li>Technologies</li>
-        <li>About</li>
+        <Link to="projects" smooth={true} duration={1000}>
+          <li>Projects</li>
+        </Link>
+        <Link to="tech" smooth={true} duration={1000}>
+          <li>Technologies</li>
+        </Link>
+        <Link to="about" smooth={true} duration={1000}>
+          <li>About</li>
+        </Link>
       </div>
       <div className="socials">
         <Socials />

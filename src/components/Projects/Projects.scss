@@ -1,0 +1,101 @@
+.projectContainer {
+    margin-top: 220px;
+}
+
+.projHead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projHead h2 {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.projHead p {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 110px;
+    @media screen and (max-width: 1373px) and (min-width: 927px) {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+
+.left img {
+    width: 90%;
+    height: 50vh;
+}
+
+.frmPlus {
+    width: 42%;
+    @media screen and (max-width: 926px) {
+        width: 90%;
+    }
+    @media screen and (max-width: 1200px) and (min-width: 927px) {
+        width: 58%;
+    }
+    @media screen and (max-width: 1500px) and (min-width: 1201px) {
+        width: 42%;
+    }
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 47%;
+    gap: 30px;
+    @media screen and (max-width: 926px) {
+        align-items: center;
+    }
+}
+
+.right h4 {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+}
+
+.right h2 {
+    color: white;
+    @media screen and (max-width: 926px) {
+        text-align: center;
+    }
+}
+
+.right p {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: left;
+    font-size: 1.1rem;
+    width: 85%;
+    line-height: 25px;
+    @media screen and (max-width: 926px) {
+        text-align: center;
+    }
+}
+
+.prjButton {
+    display: flex;
+    gap: 35px;
+    color: rgb(135, 135, 228);
+    @media screen and (max-width: 926px) {
+        justify-content: center;
+    }
+}
+
+.link {
+    cursor: pointer;
+    text-align: center;
+}

@@ -2,6 +2,10 @@ import BackgroundAnimation from './components/BackgrooundAnimation/BackgroundAni
 import "./App.css";
 import Header from './components/Header/Header';
 import About from './components/About/About';
+import Services from './components/Services/Services';
+import Projects from './components/Projects/Projects';
+import Journey from './components/Journey/Journey';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
   return (
@@ -18,6 +22,10 @@ export default function App() {
         </div>
       </div>
       <About />
+      <Services />
+      <Projects />
+      <Journey />
+      <Footer />
     </div>
   );
 }
