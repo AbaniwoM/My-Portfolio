@@ -3,6 +3,7 @@ import "./Projects.scss";
 import blgImg from "../images/blg.jpg";
 import frmPlus from "../images/form_plus.png";
 import vetImg from "../images/about-hero.jpeg";
+import SocImg from "../images/socio-img.jpg";
 
 const Projects = () => {
   return (
@@ -21,8 +22,22 @@ const Projects = () => {
               <h2>Blogging API v1</h2>
               <p>The Blogging API allows Developers work with files which have the functionality of user authentication, ability to secure login routes, create blog posts, update blog post, delete blog posts and view all blog posts. Routes can be tested with Postman.</p>
               <div className="prjButton">
-              <div className="link" onClick={() => window.location = 'https://elated-sweatpants-bear.cyclic.app/'}>View Project</div>
+              <div className="link" onClick={() => window.location = 'https://elated-sweatpants-bear.cyclic.app/'}>API</div>
               <div className="link" onClick={() => window.location = 'https://github.com/AbaniwoM/Blogging-API-v1'}>View Code</div>
+              </div>
+            </div>
+        </div>
+        <div className="project">
+            <div className="left frmPlus">
+              <img src={SocImg} alt="soc-img"/>
+            </div>
+            <div className="right">
+              <h4>ILLUSTRATION</h4>
+              <h2>Sociomorre App</h2>
+              <p>This is basically an application that promotes user interaction right from sign up, to login to networking with other users. It has a frontend UI which interacts with its own backend endpoint.</p>
+              <div className="prjButton">
+              <div className="link" onClick={() => window.location = 'https://copper-button.cyclic.app/'}>API</div>
+              <div className="link" onClick={() => window.location = 'https://github.com/AbaniwoM/SocioMorre-App'}>View Code</div>
               </div>
             </div>
         </div>
