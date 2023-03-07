@@ -10,11 +10,11 @@ const Services = () => {
       <div className="content">
         <div className="language">
           <div className="lanIcn"><DiReact /></div>
-          <h3>JavaScript, React.js, HTML5, CSS3, Next.js, Tailwind CSS, Material-ui.</h3>
+          <h3>React.js, TypeScript, HTML5, CSS3, JavaScript, Tailwind CSS, Material-ui.</h3>
         </div>
         <div className="language">
           <div className="lanIcn"><DiNodejsSmall /></div>
-          <h3>Node.js, Passport.js, ejs, MongoDB, Express.</h3>
+          <h3>Node.js, MongoDB, Express, jwt, joi.</h3>
         </div>
       </div>
     </div>

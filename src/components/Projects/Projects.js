@@ -4,6 +4,7 @@ import blgImg from "../images/blg.jpg";
 import frmPlus from "../images/form_plus.png";
 import vetImg from "../images/about-hero.jpeg";
 import SocImg from "../images/socio-img.jpg";
+import buidImg from "../images/buidly-bg.jpg";
 
 const Projects = () => {
   return (
@@ -12,6 +13,20 @@ const Projects = () => {
         <div className="projHead">
             <h2>PROJECTS</h2>
             <p>Checkout some of my works</p>
+        </div>
+        <div className="project">
+            <div className="left">
+              <img src={buidImg} alt="buid-img"/>
+            </div>
+            <div className="right">
+              <h4>ILLUSTRATION</h4>
+              <h2>Buidly App</h2>
+              <p>Fintech Solution Advert App. Stack: ReactJs, Material-UI, React-Router-DOM, SCSS, React Animation</p>
+              <div className="prjButton">
+              <div className="link" onClick={() => window.location = 'https://buidly.netlify.app/'}>View Project</div>
+              <div className="link" onClick={() => window.location = 'https://github.com/AbaniwoM/Buidly-Project'}>View Code</div>
+              </div>
+            </div>
         </div>
         <div className="project">
             <div className="left">
