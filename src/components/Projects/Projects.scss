@@ -1,5 +1,8 @@
 .projectContainer {
     margin-top: 220px;
+    @media screen and (max-width: 425px) {
+        margin-top: 180px;
+    }
 }
 
 .projHead {
@@ -19,7 +22,7 @@
     font-size: 2.4rem;
     font-weight: 600;
     @media screen and (max-width: 425px) {
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
 }
 

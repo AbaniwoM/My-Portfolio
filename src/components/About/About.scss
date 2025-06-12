@@ -1,28 +1,25 @@
 .aboutContainer {
   display: flex;
-  margin-left: 150px;
-  margin-top: 100px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7rem;
   @media screen and (max-width: 425px) {
     flex-direction: column-reverse;
     align-items: center;
-    margin-left: 0px;
     margin-top: 130px;
     flex-wrap: wrap;
   }
   @media screen and (max-width: 768px) and (min-width: 426px) {
     flex-direction: column-reverse;
     align-items: center;
-    margin-left: 0px;
     margin-top: 130px;
     flex-wrap: wrap;
   }
   @media screen and (max-width: 926px) and (min-width: 769px) {
     margin-top: 220px;
-    margin-left: 110px;
   }
   @media screen and (max-width: 1024px) and (min-width: 927px) {
     margin-top: 150px;
-    margin-left: 110px;
   }
 }
 
@@ -33,9 +30,11 @@
   line-height: 15px;
   @media screen and (max-width: 425px) {
     margin-top: 60px;
+    width: 100%;
   }
   @media screen and (max-width: 768px) and (min-width: 426px) {
     margin-top: 120px;
+    width: 100%;
   }
 }
 
@@ -44,10 +43,6 @@
   flex-direction: column;
   gap: 25px;
   margin-top: 60px;
-  @media screen and (max-width: 425px) {
-    width: 170%;
-    padding-right: 130px;
-  }
 }
 
 .aboutLeft h1 {
@@ -55,7 +50,7 @@
   font-size: 7.5rem;
   @media screen and (max-width: 425px) {
     font-size: 4.3rem;
-    margin-left: -37px;
+    padding-top: 2rem;
   }
   @media screen and (max-width: 719px) and (min-width: 426px) {
     font-size: 5rem;
@@ -82,9 +77,15 @@
   color: rgba(255, 255, 255, 0.75);
   line-height: 32px;
   font-size: 1.3rem;
+  @media screen and (max-width: 425px) { 
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   @media screen and (max-width: 768px) and (min-width: 426px) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 40px;
+    width: 42rem;
+    padding-left: 6rem;
   }
 }
 
@@ -102,5 +103,5 @@
 }
 
 .aboutRight img {
-  width: 52%;
+  width: 80%;
 }

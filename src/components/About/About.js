@@ -1,5 +1,5 @@
 import React from 'react';
-import meImg from "../images/me.jpg";
+import meImg from "../images/my-picture.jpeg";
 import "./About.scss";
 
 const About = () => (
