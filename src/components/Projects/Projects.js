@@ -5,6 +5,7 @@ import blgImg from "../images/blg.jpg";
 // import vetImg from "../images/about-hero.jpeg";
 import SocImg from "../images/socio-img.jpg";
 import ishopImg from "../images/ishop-bg.png";
+import shopinImg from "../images/shopin.png";
 import buidImg from "../images/buidly-bg.jpg";
 import paradigImg from "../images/paradigma-bg.png";
 
@@ -15,6 +16,20 @@ const Projects = () => {
         <div className="projHead">
             <h2>PROJECTS</h2>
             <p>Checkout some of my work</p>
+        </div>
+        <div className="project">
+            <div className="shopin">
+              <img src={shopinImg} alt="ishop-img"/>
+            </div>
+            <div className="right">
+              <h4>ILLUSTRATION</h4>
+              <h2>Shopin</h2>
+              <p>Ecommerce with the latest products at affordable prices, order options, payment, number of products in stock and many more. Stack: NextJs, Typescript, TailwindCSS, Stripe, Sanity, Clerk</p>
+              <div className="prjButton">
+              <div className="link" onClick={() => window.location = 'https://shopin-ecommerce.vercel.app/'}>View Project</div>
+              <div className="link" onClick={() => window.location = 'https://github.com/AbaniwoM/Shopin-ecommerce'}>View Code</div>
+              </div>
+            </div>
         </div>
         <div className="project">
             <div className="left">

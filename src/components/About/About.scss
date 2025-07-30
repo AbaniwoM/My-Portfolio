@@ -104,4 +104,10 @@
 
 .aboutRight img {
   width: 80%;
+  @media screen and (max-width: 639px) {
+    margin-left: 2.6rem;
+  }
+  @media screen and (max-width: 768px) and (min-width: 640px) {
+    margin-left: 3rem;
+  }
 }
