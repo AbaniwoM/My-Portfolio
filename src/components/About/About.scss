@@ -9,6 +9,10 @@
     margin-top: 130px;
     flex-wrap: wrap;
   }
+  @media screen and (max-width: 625px) and (min-width: 426px) {
+    align-items: center;
+    justify-content: center;
+  }
   @media screen and (max-width: 768px) and (min-width: 426px) {
     flex-direction: column-reverse;
     align-items: center;
@@ -43,6 +47,12 @@
   flex-direction: column;
   gap: 25px;
   margin-top: 60px;
+}
+
+.lowerText p {
+  @media screen and (max-width: 625px) and (min-width: 426px) {
+    padding-right: 12rem;
+  }
 }
 
 .aboutLeft h1 {

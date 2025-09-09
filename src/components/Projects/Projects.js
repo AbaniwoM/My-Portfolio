@@ -17,11 +17,11 @@ const Projects = () => {
             <h2>PROJECTS</h2>
             <p>Checkout some of my work</p>
         </div>
-        <div className="project">
-            <div className="shopin">
+        <div className="projectShop">
+            <div className="prjLeft">
               <img src={shopinImg} alt="ishop-img"/>
             </div>
-            <div className="right">
+            <div className="prjRight">
               <h4>ILLUSTRATION</h4>
               <h2>Shopin</h2>
               <p>Ecommerce with the latest products at affordable prices, order options, payment, number of products in stock and many more. Stack: NextJs, Typescript, TailwindCSS, Stripe, Sanity, Clerk</p>
@@ -32,10 +32,10 @@ const Projects = () => {
             </div>
         </div>
         <div className="project">
-            <div className="left">
+            <div className="blgLeft">
               <img src={ishopImg} alt="ishop-img"/>
             </div>
-            <div className="right">
+            <div className="blgRight">
               <h4>ILLUSTRATION</h4>
               <h2>iShop</h2>
               <p>Ecommerce with the latest products at affordable prices. Stack: NextJs, Typescript, TailwindCSS, Stripe</p>
@@ -46,10 +46,10 @@ const Projects = () => {
             </div>
         </div>
         <div className="project">
-            <div className="left">
+            <div className="blgLeft">
               <img src={paradigImg} alt="paradig-img"/>
             </div>
-            <div className="right">
+            <div className="blgRight">
               <h4>ILLUSTRATION</h4>
               <h2>Paradigma</h2>
               <p>Business website for zobo and spices products at affordable prices. Stack: ReactJs, Vite, Typescript, TailwindCSS</p>
@@ -60,10 +60,10 @@ const Projects = () => {
             </div>
         </div>
         <div className="project">
-            <div className="left">
+            <div className="blgLeft">
               <img src={buidImg} alt="buid-img"/>
             </div>
-            <div className="right">
+            <div className="blgRight">
               <h4>ILLUSTRATION</h4>
               <h2>Buidly App</h2>
               <p>Fintech Solution Advert App. Stack: ReactJs, Material-UI, React-Router-DOM, SCSS, React Animation</p>
@@ -74,10 +74,10 @@ const Projects = () => {
             </div>
         </div>
         <div className="project">
-            <div className="left">
+            <div className="blgLeft">
               <img src={blgImg} alt="blg-img"/>
             </div>
-            <div className="right">
+            <div className="blgRight">
               <h4>ILLUSTRATION</h4>
               <h2>Blogging API v1</h2>
               <p>The Blogging API allows Developers work with files which have the functionality of user authentication, ability to secure login routes, create blog posts, update blog post, delete blog posts and view all blog posts. Routes can be tested with Postman.</p>
@@ -88,10 +88,10 @@ const Projects = () => {
             </div>
         </div>
         <div className="project">
-            <div className="left frmPlus">
+            <div className="blgLeft frmPlus">
               <img src={SocImg} alt="soc-img"/>
             </div>
-            <div className="right">
+            <div className="blgRight">
               <h4>ILLUSTRATION</h4>
               <h2>Sociomorre App</h2>
               <p>This is basically an application that promotes user interaction right from sign up, to login to networking with other users. It has a frontend UI which interacts with its own backend endpoint.</p>
