@@ -3,7 +3,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { LiaTimesSolid } from "react-icons/lia";
 import { Link } from "react-scroll";
-import Socials from '../Socials/Socials';
+import SocialsMobile from '../Socials/SocialsMobile';
 import "./Hamburger.scss"
 
 
@@ -39,7 +39,7 @@ const Hamburger = () => {
             nav ? "left-[0px]" : "left-[-100vw]"
           } `}
         >
-        <div className='sm:text-black sm:flex sm:flex-col sm:gap-[2rem] sm:text-[1.1rem] md:flex md:flex-col md:gap-[3rem] md:text-[2rem]'>
+        <div className='sm:text-black sm:flex sm:flex-col sm:gap-[2rem] sm:text-[1.1rem] sm:items-center md:items-center md:flex md:flex-col md:gap-[3rem] md:text-[2rem]'>
         <Link to="projects" smooth={true} duration={1000}>
             <MenuItem>Projects</MenuItem>
           </Link>
@@ -51,7 +51,7 @@ const Hamburger = () => {
           </Link>
           <MenuItem>
            <div className="socialIcns">
-            <Socials />
+            <SocialsMobile />
            </div>
           </MenuItem>
           </div>
